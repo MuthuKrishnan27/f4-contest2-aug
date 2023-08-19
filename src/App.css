@@ -1,0 +1,37 @@
+body{
+    margin:0px auto;
+}
+.container{
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+.inner-container{
+    margin-bottom: 50px;
+    height: 300px;
+    display: flex;
+    border: 5px solid rgb(85, 105, 105);
+    padding: 10px;
+    gap: 20px 30px;
+    flex-grow: 0.1;
+    flex-direction: column;
+}
+.inner-container button{
+    color : white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+}
+.inner-container label{
+    font-weight: 800;
+}
+.inner-container input{
+    height: 40px;
+}
+
+.inner-container button:hover{
+    cursor: pointer;
+    transform: scaleY(1.1);
+}

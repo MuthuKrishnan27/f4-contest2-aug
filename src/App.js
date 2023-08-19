@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./App.css"
 import Login from "./Login";
 import Profile from "./Profile";
 
